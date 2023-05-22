@@ -2,8 +2,8 @@ import {GlobeEuropeAfricaIcon, BuildingStorefrontIcon, CursorArrowRippleIcon, Co
 // IMPORT ALL HEROICONS HERE YOU WOULD LIKE TO USE IN YOUR MENU
 export const useSettings = defineStore("project", {
   state: () => ({
-    name: "Flamewerk",
-    tagline: "Nuxt3 Statup Template",
+    name: "NOSTRDAM",
+    tagline: "Amsterdam Nostr Meetup",
 
     textlogo: "Flamewerk",
     logo: true,
@@ -14,7 +14,7 @@ export const useSettings = defineStore("project", {
     language: "en",
     dafaultroute: "/error",      // Default error route (can be set to / to just push dead links to the homepage)
 
-    layout: 'default',               // (default, web, app, client )
+    layout: 'landing',               // (default, web, app, client )
     layoutnews: 'docs',          // (default, web, app ) 
     layoutdocs: 'docs',          // (default, web, app )      
 
@@ -37,22 +37,22 @@ export const useSettings = defineStore("project", {
     nostrrelay: "",               // Still need to be implemented
     nostrrelaypool : [],          // Still need to be implemented
 
-    footertype: 'Maximum',      // Options: Tiny, Minimal, Maximum, Ecommerce
+    footertype: 'Tiny',      // Options: Tiny, Minimal, Maximum, Ecommerce
     footerlanguage: true,
     footernewsletter: false,
     footersocials: true,          // Toggle Dark/Light mode switch
     footertheme:true,             // Toggle Dark/Light mode switch
     
-    socialnavigation : {          // Enter a Url/Key to your Social Account
+    socialnavigation : {      // Options: facebook, instragram, twitter, github, discord, linkedin, dribble
       facebook: '',
       instagram: '',
-      twitter: '',
-      github:'',
+      twitter: 'https://twitter.com/Nostr_dam',
+      github:'https://github.com/Nostrdam',
       discord: '',
       dribble: '',
       linkedin: '',
-      telegram: '',
-      nostr: '',
+      telegram: 'https://t.me/nostrdam',
+      nostr: 'nostr:npub1h5ewqujs336m0kdez46l03jttnaqp3yrvf7evertw0ec52q3qulq4kcdg7',
     },
 
     // HEADERNAVIGATION

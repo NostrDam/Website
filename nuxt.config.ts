@@ -44,20 +44,20 @@ export default defineNuxtConfig({
 
   pwa: {
     meta: {
-      title: "Flamewerk: Nuxt3 Startup Theme ",
-      name: "Flamewerk",
+      title: "NOSTRDAM - Amsterdam Nostr Meetup",
+      name: "NOSTRDAM",
       description:
-        "🔥  Build Modern Webapps for Free Forever with one easy config, Deploy in less then 5min on any cloudprovider. Create a website, application, shop or community with super documentation and our community.",
+        "🔥  Nostr Community Meetup in Amsterdam.",
       ogImage: {
-        path: "https://flamewerk.com/Thumbnail.png",
+        path: "https://nostrdam.com/Thumbnail.png",
         width: 1200,
         height: 627,
         type: "image/png",
       },
-      twitterSite: "https://twitter.com/flamewerk",
+      twitterSite: "https://twitter.com/nostr_dam",
       twitterCard: "summary_large_image",
-      twitterCreator: "@flamewerk",
-      ogUrl: "https://flamewerk.com/",
+      twitterCreator: "@nostr_dam",
+      ogUrl: "https://nostrdam.com/",
     },
   },
 
